@@ -1,0 +1,9 @@
+/dev/rfd900x	# device to use
+57600		# baudrate
+crtscts		# enable serial flow control
+local		# don't use modem control lines
+lock		# lock serial device for exclusive access
+noauth		# no authentication required
+195.0.0.12:	# ip address to use (peer ip will be set automatically)
+ifname rfd900x	# interface name
+lcp-max-configure 100000000	# just keep trying to connect
