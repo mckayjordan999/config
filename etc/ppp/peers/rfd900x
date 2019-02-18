@@ -1,5 +1,5 @@
 /dev/rfd900x	# device to use
-57600		# baudrate
+115200		# baudrate
 crtscts		# enable serial flow control
 local		# don't use modem control lines
 lock		# lock serial device for exclusive access
