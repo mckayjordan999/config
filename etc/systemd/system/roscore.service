@@ -2,7 +2,7 @@
 After=NetworkManager.service time-sync.target
 [Service]
 Type=forking
-User=ubuntu
+User=ares
 # Start roscore as a fork and then wait for the tcp port to be opened
 # ----------------------------------------------------------------
 # Source all the environment variables, start roscore in a fork
